@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="mg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7eef3">
+<title>Nehemia & Fanomezana — Invitation</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap');
+:root{--ink:#51484e;--rose:#b88d9f;--soft:#f7eef3;--gold:#b99b72}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:#eee6e9;color:var(--ink);font-family:Montserrat,sans-serif}
+.page{min-height:100svh;max-width:520px;margin:auto;background:linear-gradient(#fbf5f8,#f4e9ef);position:relative;overflow:hidden}
+.page:before{content:"";position:absolute;inset:14px;border:1px solid rgba(185,155,114,.55);border-radius:5px;pointer-events:none}
+.flower{position:absolute;width:160px;height:160px;border:1px solid rgba(184,141,159,.28);border-radius:48% 52% 45% 55%;transform:rotate(35deg);filter:blur(.1px)}
+.f1{top:-80px;left:-55px}.f2{bottom:-90px;right:-55px;transform:rotate(215deg)}
+.hero{min-height:100svh;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 34px;position:relative}
+.orn{font-size:26px;color:var(--rose);letter-spacing:8px;margin-bottom:28px}
+.kicker{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:#927d87}
+h1{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:64px;line-height:.85;margin:20px 0 14px;color:#51484e}
+.amp{font-size:34px;font-style:italic;color:var(--gold)}
+.date{font-family:"Cormorant Garamond",serif;font-size:25px;letter-spacing:2px;margin-top:22px}
+.sub{font-size:10px;letter-spacing:3px;text-transform:uppercase;margin-top:18px;color:#8d7b83}
+.scroll{position:absolute;bottom:36px;font-size:9px;letter-spacing:3px;text-transform:uppercase;color:#9d8790}
+.section{padding:78px 34px;text-align:center;position:relative}
+.card{background:rgba(255,255,255,.58);border:1px solid rgba(185,155,114,.45);padding:38px 22px;box-shadow:0 15px 45px rgba(89,61,73,.08)}
+h2{font-family:"Cormorant Garamond",serif;font-size:39px;font-weight:500;margin:0 0 10px}
+.line{width:65px;height:1px;background:var(--gold);margin:18px auto 25px}
+.count{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin:25px 0}
+.num{font-family:"Cormorant Garamond",serif;font-size:34px;color:#66545c}
+.lab{font-size:8px;letter-spacing:1.5px;text-transform:uppercase;color:#a18c94}
+.event{margin:24px 0 0;padding:21px 0;border-top:1px solid #dbc9d0}
+.event b{display:block;font-family:"Cormorant Garamond",serif;font-size:26px;font-weight:500}
+.event span{font-size:11px;line-height:1.8}
+.btn{display:inline-block;margin-top:13px;padding:11px 18px;border:1px solid #c6aab5;border-radius:30px;color:#725c66;text-decoration:none;font-size:9px;letter-spacing:1.6px;text-transform:uppercase;background:#fff9fb}
+.quote{font-family:"Cormorant Garamond",serif;font-size:24px;line-height:1.35;font-style:italic}
+.footer{padding:55px 25px 75px;text-align:center;font-family:"Cormorant Garamond",serif;font-size:29px}
+@media(max-width:380px){h1{font-size:55px}.section{padding-left:25px;padding-right:25px}}
+</style>
+</head>
+<body>
+<main class="page">
+<div class="flower f1"></div><div class="flower f2"></div>
+
+<section class="hero">
+  <div>
+    <div class="orn">❦ ❦ ❦</div>
+    <div class="kicker">Wedding Invitation</div>
+    <h1>Nehemia<br><span class="amp">&</span><br>Fanomezana</h1>
+    <div class="date">18 · December · 2026</div>
+    <div class="sub">Faly izahay hanasa anao hiara-mankalaza aminay</div>
+  </div>
+  <div class="scroll">Scroll ↓</div>
+</section>
+
+<section class="section">
+  <div class="card">
+    <div class="kicker">Countdown</div>
+    <h2>Ho avy ilay andro</h2>
+    <div class="line"></div>
+    <div class="count">
+      <div><div class="num" id="days">--</div><div class="lab">Andro</div></div>
+      <div><div class="num" id="hours">--</div><div class="lab">Ora</div></div>
+      <div><div class="num" id="mins">--</div><div class="lab">Min</div></div>
+      <div><div class="num" id="secs">--</div><div class="lab">Sec</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="card">
+    <div class="kicker">When & Where</div>
+    <h2>Ny Fankalazana</h2>
+    <div class="line"></div>
+    <div class="event">
+      <b>Fiangonana Ampandrana</b>
+      <span>09:00</span><br>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Fiangonana+Ampandrana+Antananarivo">Voir la carte</a>
+    </div>
+    <div class="event">
+      <b>Espace MATEHOTIA</b>
+      <span>13:00</span><br>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Espace+MATEHOTIA+Antananarivo">Voir la carte</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="card">
+    <div class="quote">“Ny fitiavana no mampiray fo roa ho iray.”</div>
+    <div class="line"></div>
+    <div class="kicker">Nehemia & Fanomezana</div>
+  </div>
+</section>
+
+<footer class="footer">❦ Misaotra amin'ny fizarana ny hafalianay ❦</footer>
+</main>
+
+<script>
+const target = new Date("2026-12-18T00:00:00+03:00").getTime();
+function tick(){
+ const d=target-Date.now();
+ const el=id=>document.getElementById(id);
+ if(d<=0){["days","hours","mins","secs"].forEach(x=>el(x).textContent="0");return}
+ el("days").textContent=Math.floor(d/86400000);
+ el("hours").textContent=Math.floor(d%86400000/3600000);
+ el("mins").textContent=Math.floor(d%3600000/60000);
+ el("secs").textContent=Math.floor(d%60000/1000);
+}
+tick();setInterval(tick,1000);
+</script>
+</body>
+</html>
